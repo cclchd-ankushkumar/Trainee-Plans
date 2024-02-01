@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/c63ce0d76f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+   ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding:10px 0;
+    background-color: blue;
+    color:white;
+
+   }
+
+   #check:checked ~ ul{
+    display: none;
+   }
+
+   label{
+    cursor: pointer;
+   }
+   #check{
+      display: none;
+   }
+
+   h1{
+    text-decoration: underline;
+    border:1px solid blue;
+   }
+    </style>
+</head>
+<body>
+    <h1 class="text-3xl text-red-800">Navbar</h1>
+    <nav>
+        <label for="check"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="check">
+        <ul>
+            <li>Home</li>
+            <li>Product</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>Blog</li>
+        </ul>
+    </nav>
+</body>
+</html>
