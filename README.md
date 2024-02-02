@@ -1,3 +1,3 @@
 # Trainee-Plans
 
-<h2>https://techradar-ccl.netlify.app/</h2>
+<h2>Deployed Link : <span>https://techradar-ccl.netlify.app/</span></h2>
