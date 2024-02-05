@@ -20,23 +20,52 @@
 
   </head>
   <body>
+
+    <!-- Navbar part both top and bottom  -->
+
     <header class="lg:full h-auto">
+
+
+
+      <!-- top navbar -->
+
+      <div class="bg-black h-auto w-full">
+        <div class="sm:w-80 w-full m-auto justify-center h-full flex">
+          <div class="text-white item-center text-md border-r sm:border-white border-black px-3">tech<span class="font-semibold transform rotate-45"
+            >radar<span
+              class="text-red-500 inline-block text-sm border-box rotate-45"
+              ><i class="fa-solid fa-wifi"></i></span></span
+          ></div>
+          <div class="text-white item-center text-md border-r border-white px-3 sm:block hidden">tech<span class="font-semibold transform rotate-45"
+            >radar<span
+              class="text-red-500 inline-block text-sm border-box rotate-45"
+              ><i class="fa-solid fa-wifi"></i></span></span
+          >pro</div>
+          <div class="text-white px-3 font-black text-lg sm:block hidden">
+            <span  class="font-thin text-sm"><i class="fa-solid fa-arrows-to-dot"></i></span>trg
+          </div>
+        </div>
+      </div>
+
+
+
+
       <!-- navbar center -->
 
       <div class="bg-rose-950 w-full h-auto">
         
         <div class="lg:w-[63rem] w-full lg:px-0 sm:px-5 px-3 flex lg:justify-evenly justify-between items-center m-auto h-[4rem]">
 
-          <div
+          <!-- <div
           class="sm:text-3xl text-2xl text-white lg:hidden block"
 
           class="menu-button"
         >
           <label for="check"><i class="fa-solid fa-bars"></i></label>
-        </div>
+        </div> -->
 
 
-          <div class="w-2/3 flex items-center justify-evenly">
+          <div class="w-2/3 flex items-center lg:justify-evenly justify-between">
             <h1
               class="lg:text-4xl sm:text-3xl text-2xl  text-white pb-1 items-center font-light"
             >
@@ -54,7 +83,7 @@
 
 
 
-          <div class="lg:w-1/3  flex justify-evenly items-center h-full ">
+          <div class="lg:w-1/3  flex justify-evenly items-center h-full">
             <div class="w-2/4 h-8 lg:block hidden">
               <a href="#" class="text-blue-500 text-2xl mr-2"
                 ><i class="fa-brands fa-facebook"></i
@@ -85,6 +114,8 @@
         </div>
       </div>
 
+
+
       <!-- navbar bottom  -->
 
       <div class="bg-pink-900 w-full h-auto">
@@ -102,7 +133,50 @@
           <li class="font-medium">Security</li>
         </ul>
       </div>
+
+
+
+
+      <!-- navbar for small screen -->
+
+
+
+
+
+      <div class="fixed bottom-0 left-0 w-full h-auto py-1 bg-rose-950 sm:hidden block z-10 px-2 flex justify-between">
+             <div class="text-center">
+              <div class="text-xl text-white"><a href="#"><i class="fa-solid fa-house"></i></a></div>
+             <p class="text-white text-sm font-medium">Home</p>
+            </div>
+             <div class="text-center">
+              <div class="text-xl text-white"><a href="#"><i class="fa-solid fa-user"></i></a></div>
+            <p class="text-white text-sm font-medium">User</p>
+            </div>
+             <div class="text-center">
+              <div class="text-xl text-white"><a href="#"><i class="fa-solid fa-cloud"></i></a></div>
+            <p class="text-white text-sm font-medium">Cloud</p>
+            </div>
+             <div class="text-center">
+              <div class="text-xl text-white"><a href="#"><i class="fa-solid fa-globe"></i></a></div>
+            <p class="text-white text-sm font-medium"> News</p>
+            </div>
+             <div class="text-center">
+              <div class="text-xl text-white"><a href="#"><i class="fa-solid fa-brush"></i></a></div>
+            <p class="text-white text-sm font-medium">Features</p>
+            </div>
+             <div class="text-center">
+              <div class="text-xl text-white"><a href="#"><i class="fa-solid fa-gear"></i></a></div>
+            <p class="text-white text-sm font-medium">Setting</p>
+            </div>
+      </div>
+
+
+
     </header>
+
+
+      <!-- main content part -->
+
 
     <div class="lg:w-3/5 w-full h-auto m-auto relative px-3 pb-5">
       <div class="w-32 h-auto xl:block hidden fixed top-48 left-36">
@@ -176,8 +250,8 @@
         </p>
       </div>
 
-      <div class="sm:w-full p-2 ml-0 bg-gray-200">
-        <ul class="flex overflow-x-auto whitespace-nowrap">
+      <div class="md:w-full w-screen p-2 md:ml-0 -ml-3 bg-gray-200 relative">
+        <ul class="flex overflow-x-auto whitespace-nowrap ">
           <li class="font-medium mr-8 w-20 text-center text-blue-400">
             Trending
           </li>
@@ -187,6 +261,7 @@
             Best website builder
           </li>
           <li class="font-medium mr-8 w-52 text-center">Best Standing desks</li>
+          <li class="md:hidden block absolute right-1 text-xl font-bold text-red-800"><i class="fa-solid fa-arrow-right"></i></li>
         </ul>
       </div>
 
@@ -802,6 +877,11 @@
       
 
     </div>
+
+
+
+
+    <!-- footer part -->
 
     
     <footer class="bg-slate-800 auto py-5">
